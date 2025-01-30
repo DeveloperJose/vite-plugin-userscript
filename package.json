@@ -20,7 +20,8 @@
     "dev": "npm run build -- --watch",
     "build": "tsup",
     "prepublishOnly": "npm run build",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "fs-extra": "^10.0.0",
