@@ -367,6 +367,7 @@ export const TAMPERMONKEY_EXCLUSIVE_META_ENTRY_TRANSFORM_MAP: Record<string, Tra
 
   connect: createBinaryConnectPattern('connect'),
   nocompat: createBinaryEnum('nocompat', ['Chrome', 'chrome']),
+  unwrap: createUnary("unwrap"),
 };
 
 export const TAMPERMONKEY_EXCLUSIVE_META_KEYS = Object.keys(TAMPERMONKEY_EXCLUSIVE_META_ENTRY_TRANSFORM_MAP);
